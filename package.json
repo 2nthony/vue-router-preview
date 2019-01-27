@@ -1,6 +1,6 @@
 {
   "name": "vue-router-preview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Preview the route component of router-link when hovering.",
   "main": "dist/vue-router-preview.cjs.js",
   "module": "dist/vue-router-preview.esm.js",
