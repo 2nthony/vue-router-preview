@@ -1,19 +1,20 @@
 .PreviewWrapper {
   --gutter: 10px;
   position: absolute;
-  top: calc(100% + 10px);
-  left: 0;
   background-color: #fff;
   border-radius: 7px;
   border: 1px solid #e8e8e8;
   box-shadow: 0 10px 50px rgba(0, 0, 0, .5);
   padding: var(--gutter);
-  width: 200px;
-  height: 180px;
-  transform: scale(0.6);
-  transform-origin: right top;
+  width: 100vw;
+  height: 100vh;
+  top: var(--gutter);
+  right: var(--gutter);
+  transform: scale(0.3);
+  transform-origin: top right;
   display: none;
   overflow: hidden;
+  z-index: 4000;
 }
 
 .isActive {

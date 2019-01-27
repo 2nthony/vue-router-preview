@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import RouterPreview from '../lib/index'
+import RouterPreview from '../lib'
+import '../lib/preview.css'
 
 Vue.use(Router)
 Vue.use(RouterPreview)
@@ -24,6 +25,10 @@ const router = new Router({
           return h('div', 'foo-hero')
         }
       }
+    },
+    {
+      path: '*',
+      component: () => import('./views/404')
     }
   ]
 })
