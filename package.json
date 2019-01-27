@@ -1,0 +1,16 @@
+{
+  "name": "vue-router-preview",
+  "scripts": {
+    "dvan": "dvan",
+    "dev": "dvan --dev",
+    "build": "dvan --prod"
+  },
+  "dependencies": {
+    "vue": "^2.5.22",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.5.22"
+  },
+  "devDependencies": {
+    "dvan": "^2.3.2"
+  }
+}
