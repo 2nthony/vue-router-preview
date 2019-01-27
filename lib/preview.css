@@ -10,13 +10,32 @@
   height: 100vh;
   top: var(--gutter);
   right: var(--gutter);
-  transform: scale(0.3);
+  /**
+    Instead via js
+    Vue.use(RouterPreview, {
+      scale: '0.25'
+    })
+   */
+  /* transform: scale(0.25); */
   transform-origin: top right;
   display: none;
   overflow: hidden;
   z-index: 4000;
 }
+.PreviewWrapper::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
 
-.isActive {
+.PreviewWrapper__showInLeft {
+  right: unset;
+  transform-origin: top left;
+}
+
+.PreviewWrapper__isActive {
   display: block;
 }
