@@ -46,7 +46,7 @@ Now you can use it as `<preview-link>` in your app.
 
 - Evergreen browser.
 
-## API
+## Options
 
 ```js
 Vue.use(RouterPreview, options: object)
@@ -62,8 +62,16 @@ Whether to preview the hovering route component.
 ### style
 
 - Type: `object`
+- Default: [preview.css](./lib/preview.css)
 
 Override the preview style.
+
+### scale
+
+- Type: `string`
+- Default: `0.25`
+
+Default transform scalue.
 
 ### delay
 
