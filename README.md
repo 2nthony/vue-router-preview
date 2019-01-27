@@ -2,12 +2,13 @@
 
 ![NPM](https://badgen.net/npm/v/vue-router-preview?icon=npm)
 ![NPM DOWNLOADS](https://badgen.net/npm/dm/vue-router-preview)
+![MINIZIP SIZE](https://badgen.net/bundlephobia/minzip/vue-router-preview)
 
 ## Features
 
 - Preview link content when hovering over the link.
 - You don't need to change your code base to make it work.
-- Mini-size.
+- Mini-size. Only 800B +.
 
 ## Install
 
