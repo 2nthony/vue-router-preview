@@ -8,7 +8,7 @@
 
 - Preview link content when hovering over the link.
 - You don't need to change your code base to make it work.
-- Mini-size. Only 800B +.
+- Mini-size. Only ~1KB in gzip.
 
 ## Install
 
