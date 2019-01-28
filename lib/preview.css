@@ -20,7 +20,7 @@
 
     or set scale in component
 
-    <router-link style="transform: scale(0.25)">
+    <router-link scale="0.25">
   */
 
   /* transform: scale(0.25); */
