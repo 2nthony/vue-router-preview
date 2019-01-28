@@ -10,12 +10,19 @@
   height: 100vh;
   top: var(--gutter);
   right: var(--gutter);
-  /**
+
+  /*
     Instead via js
+
     Vue.use(RouterPreview, {
       scale: '0.25'
     })
-   */
+
+    or set scale in component
+
+    <router-link style="transform: scale(0.25)">
+  */
+
   /* transform: scale(0.25); */
   transform-origin: top right;
   display: none;
