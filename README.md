@@ -88,6 +88,15 @@ Safety offset to show the preview on the left side. However, it's recommended no
 
 Override the preview style.
 
+```css
+/* Overview */
+.PreviewWrapper {
+  width: 100vw;
+  height: 100vh;
+  ...;
+}
+```
+
 ## Props
 
 All [props](https://router.vuejs.org/api/#router-link-props) are still available, additional props are same with [Options](#options) but standalone.
