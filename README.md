@@ -81,6 +81,11 @@ Default transform scale.
 
 Safety offset to show the preview on the left side. However, it's recommended not to be lower than DEFAULT.
 
+### keep
+
+- Type: `boolean`
+- Default: `true`
+
 ### style
 
 - Type: `object`
@@ -99,7 +104,13 @@ Override the preview style.
 
 ## Props
 
-All [props](https://router.vuejs.org/api/#router-link-props) are still available, additional props are same with [Options](#options) but standalone.
+All [props](https://router.vuejs.org/api/#router-link-props) are still available, additional props are same with [Options](#options) but standalone, differences props are listed below.
+
+### style
+
+- Type: `string`
+
+It should be origin HTML style attribute.
 
 ## Author
 
