@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import RouterPreview from '../lib'
+import RouterPreview from '../lib/dist'
 import '../lib/preview.css'
 
 Vue.use(Router)

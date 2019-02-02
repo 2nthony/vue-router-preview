@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "lib/dist",
+    "target": "es6",
+    "removeComments": true
+  },
+  "includes": ["lib/declarations.d.ts", "lib"]
+}

@@ -1,5 +1,5 @@
 export default {
-  input: 'lib/index.js',
+  input: 'lib/dist/index.js',
   output: [
     {
       file: 'dist/vue-router-preview.cjs.js',
