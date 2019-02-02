@@ -11,8 +11,8 @@
     "tsc": "tsc",
     "lint": "tslint -c tslint.json 'lib/**/*.ts'",
     "lint:fix": "yarn lint --fix",
-    "build": "rollup -c && cp lib/preview.css dist/index.css",
-    "prepublishOnly": "tsc && yarn build",
+    "build": "tsc && rollup -c && cp lib/preview.css dist/index.css",
+    "prepublishOnly": "yarn build",
     "example": "dvan example/index.js --dev"
   },
   "author": "evillt <ijoec123@gmail.com>",
